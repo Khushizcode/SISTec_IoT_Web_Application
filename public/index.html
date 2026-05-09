@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <div class="flex justify-center items-center h-screen">
+
+        <form action="/login" method="POST"
+            class="bg-white p-8 rounded shadow-md w-96">
+
+            <h1 class="text-3xl font-bold mb-6 text-center">
+                Login
+            </h1>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+                class="w-full border p-3 mb-4 rounded"
+            >
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required
+                class="w-full border p-3 mb-4 rounded"
+            >
+
+            <button
+                class="bg-blue-500 text-white w-full p-3 rounded">
+
+                Login
+
+            </button>
+
+            <p class="mt-4 text-center">
+                <a href="/register.html" class="text-blue-500">
+                    Create Account
+                </a>
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
